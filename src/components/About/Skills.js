@@ -1,5 +1,5 @@
 import React from 'react';
-import { FaCss3, FaCss3Alt, FaJsSquare, FaNodeJs } from "react-icons/fa";
+import { FaCss3Alt, FaJsSquare, FaNodeJs } from "react-icons/fa";
 import { SiMongodb } from "react-icons/si";
 
 const Skills = () => {

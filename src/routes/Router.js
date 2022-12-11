@@ -1,6 +1,7 @@
 import { createBrowserRouter } from "react-router-dom";
 import About from "../components/About/About";
 import AboutMore from "../components/About/AboutMore";
+import Blogs from "../components/Blogs/Blogs";
 import Contact from "../components/Contact/Contact";
 import ErrorPage from "../components/ErrorPage/ErrorPage";
 import Home from "../components/Home/Home/Home";
@@ -38,11 +39,15 @@ export const router = createBrowserRouter([
             {
                 path: '/projectDetails/:id',
                 element: <ProjectDetails />,
-                loader: ({ params }) => fetch(`http://localhost:5000/projects/${params.id}`)
+                loader: ({ params }) => fetch(`https://kaiser-portfolio-client.vercel.app/projects/${params.id}`)
             },
             {
                 path: '/aboutmore',
                 element: <AboutMore />
+            },
+            {
+                path: '/blogs',
+                element: <Blogs />
             }
 
         ]
