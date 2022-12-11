@@ -1,0 +1,53 @@
+[
+    {
+        "_id": "1234512345",
+        "projectName": "Recycle Tech",
+        "about": "Buy and sell used laptop online",
+        "technologyUsed":"ReactJS, NodeJS, ExpressJS, MongoDB, FireBase, TailwindCSS, Stripe, Vercel",
+        "Features":[
+            "Responsive for both Desktop and Mobile device", "Login is authenticated with Firebase and verified with JWT","Separate dashboard for Admin, buyer and seller", "Online payment system applied with stripe "
+        ],
+        "img": {
+            "home":"https://i.ibb.co/FYPBkYb/recycle-tech.jpg",
+            "img1":"https://ibb.co/ChQbdJb",
+            "img2":"https://i.ibb.co/9r8w64c/products.jpg",
+            "img3":"https://i.ibb.co/KG4TGkg/seller-dashbaord.jpg",
+            "img4":"https://i.ibb.co/DG3y4sC/user-dashboard.jpg",
+            "img5":"https://i.ibb.co/6HPmVtK/payment.jpg"
+        },
+        "liveSite": "https://use-laptop-resale.web.app/"
+    },
+    {
+        "_id": 2345623456,
+        "projectName": "Heal Your Heart",
+        "about": "Health Service providing app",
+        "technologyUsed":"ReactJS, NodeJS, ExpressJS, MongoDB, FireBase, TailwindCSS, Vercel",
+        "Features":[
+            "Responsive for both Desktop and Mobile device", "Firebase login authentication and implementation of CRUD operation on service","User can view all services. To add service or add review user have to login"
+        ],
+        "img": {
+            "home":"https://i.ibb.co/z8JDD4c/heal-your-heart.jpg",
+            "img1":"https://i.ibb.co/QDtCfKv/services.jpg",
+            "img2":"https://i.ibb.co/qWmjn1w/service-Details.jpg",
+            "img3":"https://i.ibb.co/RczTVjx/review-Page.jpg",
+            "img4":"https://i.ibb.co/YNf9pD9/login.jpg"
+        },
+        "liveSite": "https://heal-heart.web.app/"
+    },
+    {
+        "_id": "3456734567",
+        "projectName": "Learning Tech",
+        "about": "Online education (e-learning) platform",
+        "technologyUsed":"ReactJS, NodeJS, ExpressJS, MongoDB, FireBase, TailwindCSS, Vercel",
+        "Features":[
+            "Responsive for both Desktop and Mobile device", "User can view all courses and to buy any course user have to login"
+        ],
+        "img": {
+            "home":"https://i.ibb.co/L5zKZ45/learning-tech.jpg",
+            "img1":"https://i.ibb.co/YT0Hhkc/all-Courses.jpg",
+            "img2":"https://i.ibb.co/Gs1hh29/course-Details.jpg",
+            "img3":"https://i.ibb.co/HC4N3jQ/enrolement.jpg"
+        },
+        "liveSite": "https://learning-platform-client-88c86.web.app/"
+    }
+]
