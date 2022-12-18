@@ -10,7 +10,7 @@ const Home = () => {
     return (
         <div>
 
-            <ParticleElement />
+            {/* <ParticleElement /> */}
             <div>
                 <About />
                 <Portfolio />

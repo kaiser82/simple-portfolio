@@ -9,7 +9,7 @@ const ProjectDetails = () => {
 
     return (
         <div className='min-h-screen'>
-            <h2 className='text-4xl font-bold text-center uppercase py-5'>Project Name: {projectName}</h2>
+            <h2 className='text-4xl font-bold text-center uppercase py-5'> {projectName}</h2>
             <h5 className='text-2xl font-bold text-center'>Project About: {about} </h5>
 
             <div className="carousel w-11/12 md:w-2/3 lg:w-1/2 mx-auto mt-10">

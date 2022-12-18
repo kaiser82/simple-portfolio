@@ -5,6 +5,7 @@ import ProjectCard from './ProjectCard';
 const Portfolio = () => {
     const [projects, setProjects] = useState([]);
     const [loading, setLoading] = useState(true)
+    console.log(loading)
     useEffect(() => {
         fetch('https://kaiser-portfolio-client.vercel.app/projects')
             .then(res => res.json())
