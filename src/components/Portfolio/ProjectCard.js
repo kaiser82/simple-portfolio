@@ -13,7 +13,7 @@ const ProjectCard = ({ project }) => {
                 <p>{about}</p>
                 <div className="card-actions justify-center">
                     <button className="btn btn-secondary "><Link to={`/projectDetails/${_id}`} >Show Details</Link></button>
-                    <button className="btn btn-primary "><a href={liveSite}>Live site</a></button>
+                    <button className="btn btn-primary "><a href={liveSite} target='_blank' rel="noopener noreferrer">Live site</a></button>
                 </div>
             </div>
         </div>

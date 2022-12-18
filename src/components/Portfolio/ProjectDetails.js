@@ -9,8 +9,8 @@ const ProjectDetails = () => {
 
     return (
         <div className='min-h-screen'>
-            <h2 className='text-5xl font-bold text-center py-5'>Project Name: {projectName}</h2>
-            <h5 className='text-3xl font-bold text-center'>Project About: {about} </h5>
+            <h2 className='text-4xl font-bold text-center uppercase py-5'>Project Name: {projectName}</h2>
+            <h5 className='text-2xl font-bold text-center'>Project About: {about} </h5>
 
             <div className="carousel w-11/12 md:w-2/3 lg:w-1/2 mx-auto mt-10">
                 <div id="item1" className="carousel-item w-full">
@@ -42,9 +42,9 @@ const ProjectDetails = () => {
                 </ul>
             </div>
             <div className='text-center mb-5 space-x-5'>
-                <button className='btn btn-secondary'><a href={client}>Git Client</a></button>
-                <button className='btn btn-secondary'><a href={server}>Git Server</a></button>
-                <button className='btn btn-primary'><a href={liveSite}>Live Site</a></button>
+                <button className='btn btn-secondary'><a href={client} target='_blank' rel="noopener noreferrer">Git Client</a></button>
+                <button className='btn btn-secondary'><a href={server} target='_blank' rel="noopener noreferrer">Git Server</a></button>
+                <button className='btn btn-primary'><a href={liveSite} target='_blank' rel="noopener noreferrer">Live Site</a></button>
             </div>
 
         </div>

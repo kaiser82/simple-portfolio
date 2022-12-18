@@ -2,6 +2,7 @@ import React from 'react';
 import img from '../../assets/me/profile.png'
 import resume from '../../assets/kaiser_ahmed_resume.pdf'
 import Skills from './Skills';
+import { Link } from 'react-router-dom';
 
 const AboutMore = () => {
     return (
@@ -14,12 +15,13 @@ const AboutMore = () => {
                 </div>
                 <div>
                     <h1 className="text-5xl font-bold text-center">Secret About Me!</h1>
-                    <p className="py-6">Comfortable with MERN stack web development environment. Love to take challenges and
-                        have positive attitude to learning new technology..</p>
+                    <p className="py-6">Comfortable with MERN stack web development environment. Love to take challenges, can work both as a team and solo, and
+                        have positive attitude of learning new technology...</p>
                     {
                         <Skills />
                     }
-                    <div className='text-center my-5'>
+                    <div className='text-center my-5 space-x-5'>
+                        <button className="btn btn-secondary"><Link to='/portfolio' >Some of My work</Link></button>
                         <button className="btn btn-primary"><a href={resume}>Download Resume</a></button>
                     </div>
                 </div>
