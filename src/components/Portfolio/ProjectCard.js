@@ -11,9 +11,9 @@ const ProjectCard = ({ project }) => {
             <div className="card-body">
                 <h2 className="card-title">{projectName}</h2>
                 <p>{about}</p>
-                <div className="card-actions justify-end">
-                    <button className="btn btn-secondary btn-sm"><Link to={`/projectDetails/${_id}`} >Show Details</Link></button>
-                    <button className="btn btn-primary btn-sm"><a href={liveSite}>Live site</a></button>
+                <div className="card-actions justify-center">
+                    <button className="btn btn-secondary "><Link to={`/projectDetails/${_id}`} >Show Details</Link></button>
+                    <button className="btn btn-primary "><a href={liveSite}>Live site</a></button>
                 </div>
             </div>
         </div>

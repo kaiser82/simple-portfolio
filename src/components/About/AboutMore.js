@@ -5,7 +5,9 @@ import Skills from './Skills';
 
 const AboutMore = () => {
     return (
+
         <div className="hero min-h-screen bg-base-200">
+
             <div className="hero-content flex-col lg:flex-row-reverse">
                 <div>
                     <img src={img} className="max-w-sm rounded-lg shadow-2xl" alt='' />

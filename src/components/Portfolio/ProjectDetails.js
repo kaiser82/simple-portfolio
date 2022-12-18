@@ -4,7 +4,7 @@ import { useLoaderData } from 'react-router-dom';
 
 const ProjectDetails = () => {
     const details = useLoaderData()
-    const { projectName, technologyUsed, Features, about, liveSite, img } = details;
+    const { projectName, technologyUsed, Features, about, liveSite, img, server, client } = details;
     console.log(details)
 
     return (
@@ -12,7 +12,7 @@ const ProjectDetails = () => {
             <h2 className='text-5xl font-bold text-center py-5'>Project Name: {projectName}</h2>
             <h5 className='text-3xl font-bold text-center'>Project About: {about} </h5>
 
-            <div className="carousel w-1/2 mx-auto mt-10">
+            <div className="carousel w-11/12 md:w-2/3 lg:w-1/2 mx-auto mt-10">
                 <div id="item1" className="carousel-item w-full">
                     <img src={img.img1} className="w-full" alt='' />
                 </div>
@@ -32,8 +32,8 @@ const ProjectDetails = () => {
                 <a href="#item3" className="btn btn-xs">3</a>
                 <a href="#item4" className="btn btn-xs">4</a>
             </div>
-            <div className='text-center py-5'>
-                <p className='text-2xl'>Technology Used: {technologyUsed}</p>
+            <div className='text-center py-5 space-y-3'>
+                <p className=''> <span className='text-2xl font-semibold'>Technology Used:</span> <br /> <span>{technologyUsed}</span> </p>
                 <p className='text-xl font-bold'>Features:</p>
                 <ul>
                     {
@@ -41,7 +41,9 @@ const ProjectDetails = () => {
                     }
                 </ul>
             </div>
-            <div className='text-center mb-5'>
+            <div className='text-center mb-5 space-x-5'>
+                <button className='btn btn-secondary'><a href={client}>Git Client</a></button>
+                <button className='btn btn-secondary'><a href={server}>Git Server</a></button>
                 <button className='btn btn-primary'><a href={liveSite}>Live Site</a></button>
             </div>
 

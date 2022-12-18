@@ -3,7 +3,8 @@ import { Link } from 'react-router-dom';
 
 const Blogs = () => {
     return (
-        <div className="p-6 py-12 dark:bg-violet-400 dark:text-gray-900 min-h-screen flex text-center items-center">
+        <div className="p-6 lg:py-12 lg:px-20 dark:bg-violet-400 dark:text-gray-900 min-h-screen flex text-center items-center">
+
             <div className="container mx-auto">
                 <div className="flex flex-col lg:flex-row items-center justify-between">
                     <h2 className="text-center text-7xl tracking-tighter font-bold">

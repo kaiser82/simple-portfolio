@@ -3,9 +3,11 @@ import image from '../../assets/me/profile1.png'
 import resume from '../../assets/kaiser_ahmed_resume.pdf'
 import { Link } from 'react-router-dom';
 
+
 const About = () => {
     return (
         <div className="hero min-h-screen bg-base-200">
+
             <div className="hero-content flex-col lg:flex-row-reverse">
                 <div><img src={image} className=" w-full rounded-lg shadow-2xl" alt='profile' /></div>
                 <div className='w-full'>
